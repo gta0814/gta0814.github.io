@@ -1,0 +1,22 @@
+# ===== 博客基本信息（可以随时改这里）=====
+title: 写给所爱之人
+description: 写给轼缘和轼恩，也写给任何愿意一起想的人。
+author:
+  name: 爸爸
+lang: zh-CN
+
+# ===== 主题与插件（GitHub Pages 原生支持，不用动）=====
+theme: minima
+plugins:
+  - jekyll-feed
+
+# 顶部导航里要显示的页面
+header_pages:
+  - about.md
+
+# 时区，影响文章日期显示
+timezone: Asia/Shanghai
+
+# 构建时忽略这些文件（说明文档不需要发布成网页）
+exclude:
+  - README.md
